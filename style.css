@@ -1,0 +1,123 @@
+body{
+	font-family: font-family: "Gill Sans", sans-serif;;
+	font-size: 18px;
+}
+
+h1,h2,h3{
+	font-family: serif;;
+	font-weight: bold;*
+	color: black;
+}
+
+.avatar{
+	width: 60px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+body{
+	background: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+.btn-blue{
+	background-color: #6D71DD;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+}
+
+/*media*/
+
+@media (max-width: 960px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+
+.banner{
+	background-image: url(image/food.jpg);
+	color: whitesmoke;
+	padding: 120px 0px;
+	background-position: center;
+	margin: 0px;
+	background-image: ,url(image/food.jpg);
+
+}
+
+.banner h1{
+	font-size: 54px;
+
+}
+.banner h2{
+	font-size: 42px;
+	font-weight: lighter;
+}
+
+.gateau{
+	width: 150px;
+	height: 150px;
+	font-size: 16px;
+	padding: 8px 8px;
+	border-radius: 4px;
+	text-align: center;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+
+}
+
+.macaron{
+	width: 150px;
+	height: 150px;
+	font-size: 16px;
+	padding: 8px 8px;
+	border-radius: 4px;
+	text-align: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+
+}
+
+.eclair{
+	width: 150px;
+	height: 150px;
+	font-size: 16px;
+	padding: 8px 8px;
+	border-radius: 4px;
+	text-align: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+
+}
+
+.cupcake{
+	width: 150px;
+	height: 150px;
+	font-size: 16px;
+	padding: 8px 8px;
+	border-radius: 4px;
+	text-align: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+
+}
